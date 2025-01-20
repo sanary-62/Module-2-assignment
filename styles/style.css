@@ -64,3 +64,53 @@ font-weight: 600;
 text-align: center;
 border: none;
 }
+/* Banner style */
+.banner {
+    display: flex;
+    margin: 0px 156px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.banner-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24px;
+}
+.banner-title {
+    font-size: 56px;
+font-weight: 700;
+text-align: left;
+}
+.banner-descrip {
+    font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+.btn-primary {
+    padding: 10px;
+margin: 24px 0px;
+font-size: 18px;
+font-weight: 700;
+background-color: black;
+color: white;
+margin-top: 10px;
+border-radius: 12px;
+border: none;
+width: 157px;
+height: 40px;
+}
+.banner-img {
+    position: relative;
+    width: 468.61px;
+height: 565px;
+}
+.banner-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
