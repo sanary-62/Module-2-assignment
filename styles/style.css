@@ -6,3 +6,61 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Navbar style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 156px;
+}
+.logobar {
+    display: flex;
+    gap: 10px;
+}
+.nav-img {
+    width: 58px;
+height: 58px;
+}
+.logo {
+    font-size: 22px;
+font-weight: 700;
+}
+.nav-links{
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.home {
+    color: rgb(254, 163, 1);;
+}
+.about {
+    color: rgb(1, 172, 253);    
+}
+.facilites {
+    color: rgb(5, 212, 223);
+}
+.admission {
+    color: rgb(93, 88, 239);
+}
+.contact {
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    justify-content: center;
+align-items: center;
+width: 157px;
+height: 40px;
+gap: 10;
+padding: 10px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+border: none;
+}
