@@ -163,21 +163,22 @@ margin-bottom: 8px;
     margin: 80px 0;
     background-image: url(../assets/bg.png);
 position: absolute;
-width: 1440px;
-height: 770px;
+width: 1500px;
+height: 870px;
 left: 0;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-gap: 80;
-padding: 60px 0px 60px 0px;
+gap: 80px;
+margin-top: 20px;
 border-bottom: 2px dashed lightgray;
 }
-.curriculum-title {
+.title {
 font-size: 46px;
 font-weight: 700;
 line-height: 57.5px;
+text-align: center;
 text-align: center;
 }
 .curriculums {
@@ -188,7 +189,7 @@ width: 1190px;
 height: 481.5px;
 left: 156px;
 right: -156px;
-top: 230.5px;
+top: 165px;
 bottom: -197.5px;
 gap: 12px;
 }
@@ -250,8 +251,8 @@ text-align: center;
 .curriculum-logos {
 position: static;
 width: 130px;
-height: 60px;
-margin: 580px 0px 60px 53px;
+height: 80px;
+margin: 510px 0px 60px 53px;
 font-size: 28px;
 font-weight: 900;
 line-height: 24px;
@@ -276,6 +277,175 @@ border-radius: 50%;
 #logo1:hover {
     transform: scale(1.2) translate(-10px);
     transition: 0.5s;
+}
+/* our stories design */
+.stories {
+position: absolute;
+width: 1520px;
+height: 1300px;
+left: 0;
+top: 1150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 80px;
+padding: 60px 0px 60px 0px;
+margin-top: 0px ;
+background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+#stories-title {
+    margin-top: 450px;
+    margin-left: 70px;
+}
+.story-items {
+/* Group 38 */
+position: static;
+width: 1160px;
+height: 630.52px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.story-nums {
+    display: flex;
+}
+.short-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Group 20 */
+position: absolute;
+width: 601px;
+height: 622.4px;
+left: 730px;
+right: -140px;
+top: 617.5px;
+bottom: -170.38px;
+}
+.story1 {
+/* Article */
+position: relative;
+width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+margin-top: -90px;
+background: rgb(255, 255, 255);
+}
+.story1 img {
+    /* Rectangle 12 */
+position: absolute;
+width: 540px;
+height: 337px;
+left: 0;
+top: 0;
+border-radius: 16px 16px 0px 0px;
+}
+.story1 h3 {
+    /* A fun toddler coloring training on classroom */
+position: absolute;
+width: 402.49px;
+height: 69.98px;
+left: 38px;
+top: 350px;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+}
+.story1 p {
+    position: absolute;
+width: 433.06px;
+height: 75.74px;
+left: 38px;
+top: 470.26px;
+display: flex;
+flex-direction: row;
+align-items: center;
+color: rgb(102, 102, 102);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+text-align: left;
+}
+.box {
+    /* Article */
+position: relative;
+width: 290.69px;
+height: 301.61px;
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.box img {
+    /* Article */
+position: relative;
+width: 291px;
+height: 177px;
+border-radius: 16px 16px 0px 0px;
+
+background: url(),rgb(255, 255, 255);
+}
+.box h4 {
+    /* Heading 4 → Link */
+position: absolute;
+width: 214px;
+height: 57.52px;
+left: 38px;
+top: 200px;
+}
+.story1-button {
+    margin-top: 310px;
+    /* Background */
+position: absolute;
+width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+text-align: center;
+text-transform: capitalize;
+border: none;
+}
+.story-button {
+/* Background */
+position: absolute;
+height: 38.35px;
+left: 38.35px;
+top: 157.81px;
+border-radius: 47.93px;
+
+background: rgb(149, 178, 38);
+color: rgb(255, 255, 255);
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+text-align: center;
+text-transform: capitalize;
+border: none;
+}
+#story2-button{
+    width: 174.51px;
+}
+#story3-button {
+    background: rgb(93, 88, 240);
+    width: 174.51px;
+}
+#story4-button {
+    width: 179.44px;
+}
+#story5-button {
+    width: 127.44px;
 }
 
 
