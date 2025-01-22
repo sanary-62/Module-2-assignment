@@ -308,11 +308,9 @@ background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3
     margin-left: 70px;
 }
 .story-items {
-/* Group 38 */
 position: static;
 width: 1160px;
 height: 630.52px;
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -324,7 +322,6 @@ margin: 80px 0px;
 .short-stories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Group 20 */
 position: absolute;
 width: 601px;
 height: 622.4px;
@@ -334,7 +331,6 @@ top: 617.5px;
 bottom: -170.38px;
 }
 .story1 {
-/* Article */
 position: relative;
 width: 540.27px;
 height: 630.52px;
@@ -343,7 +339,6 @@ margin-top: -90px;
 background: rgb(255, 255, 255);
 }
 .story1 img {
-    /* Rectangle 12 */
 position: absolute;
 width: 540px;
 height: 337px;
@@ -352,7 +347,6 @@ top: 0;
 border-radius: 16px 16px 0px 0px;
 }
 .story1 h3 {
-    /* A fun toddler coloring training on classroom */
 position: absolute;
 width: 402.49px;
 height: 69.98px;
@@ -364,7 +358,6 @@ align-items: center;
 font-size: 24px;
 font-weight: 700;
 line-height: 38.35px;
-letter-spacing: 0%;
 text-align: left;
 }
 .story1 p {
@@ -383,23 +376,19 @@ line-height: 28.76px;
 text-align: left;
 }
 .box {
-    /* Article */
 position: relative;
 width: 290.69px;
 height: 301.61px;
 border-radius: 16px;
-
 background: rgb(255, 255, 255);
 }
 .box img {
 width: 291px;
 height: 177px;
 border-radius: 16px 16px 0px 0px;
-
 background: url(),rgb(255, 255, 255);
 }
 .box h4 {
-    /* Heading 4 → Link */
 position: absolute;
 width: 214px;
 height: 57.52px;
@@ -408,13 +397,11 @@ top: 200px;
 }
 .story1-button {
     margin-top: 310px;
-    /* Background */
 position: absolute;
 width: 174.51px;
 height: 47.93px;
 left: 38.35px;
 border-radius: 47.93px;
-
 background: rgb(60, 216, 232);
 color: rgb(255, 255, 255);
 font-size: 15.34px;
@@ -430,7 +417,6 @@ height: 38.35px;
 left: 38.35px;
 top: 157.81px;
 border-radius: 47.93px;
-
 background: rgb(149, 178, 38);
 color: rgb(255, 255, 255);
 font-size: 15.34px;
@@ -467,7 +453,6 @@ border: none;
 }
 /* footer design */
 .footer {
-    /* Rectangle 17 */
 position: absolute;
 width: 1278px;
 height: 250px;
@@ -547,13 +532,14 @@ margin-left: 5px;
 
 
 
+
 @media screen and (max-width: 576px) {
     body {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
     }
-   /* Responsive navbar */
+/* Responsive navbar */
    .header {
     border-bottom: none;
     width: auto;
@@ -592,7 +578,8 @@ bottom: -12px;
     }
     /* Responsive banner */
     .banner {
-        margin: 0 -25px;
+        margin-top: -30px;
+        margin-left: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -625,8 +612,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 0px;
-margin-top: 685px;
-margin-left: 87px;
+margin-top: 575px;
+margin-left: 33px;
 max-width: 100%;
     }
     .banner-title {
