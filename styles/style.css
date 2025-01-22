@@ -17,6 +17,15 @@
   }
   
 /* Navbar style */
+.marq{
+    color: rgb(100, 200, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+.admn {
+   color:  rgb(254, 163, 1);
+
+}
 .header {
     border-bottom: 2px dashed lightgrey;
 }
@@ -278,15 +287,6 @@ border-radius: 50%;
     transform: scale(1.2) translate(-10px);
     transition: 0.5s;
 }
-#logo2:hover {
-    transform: scale(1.2) translate(10px);
-    transition: 0.5s;
-}
-#logo1:hover {
-    transform: scale(1.2) translate(-10px);
-    transition: 0.5s;
-}
-
 /* our stories design */
 .stories {
 position: absolute;
@@ -465,6 +465,7 @@ border: none;
     position: absolute;
     margin-top: 1240px;
 }
+/* footer design */
 .footer {
     /* Rectangle 17 */
 position: absolute;
@@ -547,6 +548,11 @@ margin-left: 5px;
 
 
 @media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
    /* Responsive navbar */
    .header {
     border-bottom: none;
@@ -558,7 +564,7 @@ width: 46px;
 height: 46px;
 left: 16px;
 right: 296px;
-top: 12px;
+top: 43px;
 bottom: -12px;
     }
     .navbar {
@@ -630,7 +636,7 @@ line-height: 40px;
 text-align: center;
 justify-content: center;
     }
-    /* Responsive curriculur container */
+    /* Responsive curriculum container */
     .curriculums {
 display: grid;
 grid-template-columns: repeat(1, 1fr);
@@ -756,5 +762,44 @@ font-size: 16px;
 font-weight: 700;
 line-height: 30px;
 margin-top: 622px;
+}
+/* Responsive footer */
+.footer {
+    margin-top: 780px;
+    width: 196px;
+    margin-left: 24px;
+    height: 600px;
+}
+.footer-container1 p {
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-top: 0px;
+margin-left: -76px;
+}
+.footer-head {
+    margin-top: -30px;
+    margin-left: -86px;
+}
+.footer-container2 {
+    /* Group 36 */
+position: absolute;
+width: 129px;
+height: 188.02px;
+left: 20px;
+right: 241px;
+top: 375px;
+bottom: 184.98px;
+}
+.footer-container2 h5 {
+    margin-top: 20px;
+    margin-left: -145px;
+}
+.footer-container2 ul {
+    margin-left: -180px;
+}
+.footer-container3 {
+    margin-left: -330px;
+    margin-top: 525px;
 }
 }
